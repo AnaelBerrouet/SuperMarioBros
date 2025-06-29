@@ -1,7 +1,6 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class PlayerSprtieRednerer : MonoBehaviour
+public class PlayerSpriteRednerer : MonoBehaviour
 {
     private SpriteRenderer spriteRenderer;
     private PlayerMovement movement;
