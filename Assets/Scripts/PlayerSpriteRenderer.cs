@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerSpriteRednerer : MonoBehaviour
+public class PlayerSpriteRenderer : MonoBehaviour
 {
     private SpriteRenderer spriteRenderer;
     private PlayerMovement movement;

@@ -122,7 +122,7 @@ MonoBehaviour:
   - {fileID: -591790736689284324, guid: 57314feb491254efaaf06497679170a4, type: 3}
   - {fileID: 4918424967683476734, guid: 7a434d55584e84a058364d7f41bdf228, type: 3}
   - {fileID: -591790736689284324, guid: 57314feb491254efaaf06497679170a4, type: 3}
-  frametime: 0.16666667
+  frametime: 0.1666667
 --- !u!1 &3625519046331940495
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,7 +245,7 @@ MonoBehaviour:
   - {fileID: 952471668213903138, guid: 97e27167d528146bf83115ee3e001daf, type: 3}
   - {fileID: 4821763183310280765, guid: a092b3d38b82a4ea2ae0ac54bbc74711, type: 3}
   - {fileID: 952471668213903138, guid: 97e27167d528146bf83115ee3e001daf, type: 3}
-  frametime: 0.16666667
+  frametime: 0.1666667
 --- !u!1 &9107944267649884342
 GameObject:
   m_ObjectHideFlags: 0
@@ -257,7 +257,9 @@ GameObject:
   - component: {fileID: 8966434998518725270}
   - component: {fileID: 3258921167364444296}
   - component: {fileID: 486531946701851262}
+  - component: {fileID: 4766585506039245400}
   - component: {fileID: 5596470276599578101}
+  - component: {fileID: 478752566493680175}
   m_Layer: 3
   m_Name: Mario
   m_TagString: Player
@@ -346,6 +348,20 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 1}
   m_Direction: 0
+--- !u!114 &4766585506039245400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9107944267649884342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6687833c9f1134ba7903df070d7eece9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  smallRenderer: {fileID: 1484818344338445496}
+  bigRenderer: {fileID: 5478124762847975463}
 --- !u!114 &5596470276599578101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -361,3 +377,17 @@ MonoBehaviour:
   moveSpeed: 8
   maxJumpHeight: 5
   maxJumpTime: 1
+--- !u!114 &478752566493680175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9107944267649884342}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8492faba16e564b539705cdc27ea70ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 506862978879002649}
+  deathSprite: {fileID: 7150277278125545651, guid: 673bf9d56d8654b0d8afb0b5e00a92a6, type: 3}
